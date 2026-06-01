@@ -1,2 +1,2 @@
-# simple-little-menu2
+# simple-little-menu
 testing
