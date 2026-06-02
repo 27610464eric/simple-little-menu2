@@ -16,9 +16,17 @@
       max-width: 100%;
       max-height: 100%;
     }
+    .simple-images img {
+  display: block; /* 將圖片轉換為區塊元素，自動強制換行 */
+  margin: 0 auto 20px auto; /* 左右置中，並在圖片下方保留 20px 間距 */
+  max-width: 100%; /* 限制圖片的最大寬度 */
+}
   </style>
 </head>
 <body>
+<div class="simple-images">
   <img src="testgithubmenu.jpg">
+  <img src="testgithubmenu2.jpg">
+</div>
 </body>
 </html>
